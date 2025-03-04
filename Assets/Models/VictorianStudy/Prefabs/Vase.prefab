@@ -66,10 +66,42 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bcb01053d93aef544a5aaa56732399ab,
         type: 3}
       propertyPath: m_Name
-      value: vase
+      value: Vase
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bcb01053d93aef544a5aaa56732399ab,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8133613360353211812}
   m_SourcePrefab: {fileID: 100100000, guid: bcb01053d93aef544a5aaa56732399ab, type: 3}
+--- !u!1 &2967892676620849463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bcb01053d93aef544a5aaa56732399ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 2734102220583021670}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8133613360353211812
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2967892676620849463}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9160252344131195527, guid: bcb01053d93aef544a5aaa56732399ab, type: 3}
